@@ -125,6 +125,7 @@ if ($isCli) {
 Plugin::load('Josegonzalez/Upload');
 Configure::write('Users.config', ['users']);
 Plugin::load('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);
+Configure::write('Auth.authenticate.Form.fields.username', 'email');
 Configure::write('Users.Social.login', true);
 if ($isCli) {
     require __DIR__ . '/bootstrap_cli.php';
