@@ -19,7 +19,7 @@ use Cake\Core\Configure;
           <h1 class="display-4 text-center">Register</h1>
           <p class="lead text-center">Create your Developer account</p>
         <div class="users form">
-            <?php echo $this->flash->render();?>
+            <?php //echo $this->flash->render();?>
     <?= $this->Form->create(); ?>
     <fieldset>
         <?php
