@@ -42,9 +42,9 @@ use Cake\Core\Configure;
         }
         if (Configure::read('Users.Email.required')) {
             if ($registrationActive) {
-                echo '  ';
+                echo ' | ';
             }
-            echo $this->Html->link(__d('CakeDC/Users', 'Reset Password'), ['action' => 'request_Reset_Password'],['class'=>'btn btn-success']);
+             echo $this->Html->link(__d('CakeDC/Users', 'Reset Password'), ['action' => 'change_password']);
         }
         ?>
  <br>
