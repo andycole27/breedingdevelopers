@@ -68,7 +68,7 @@ Router::scope('/', function (RouteBuilder $routes) {
     $routes->connect('/users/logout', ['controller' => 'users', 'action' => 'logout']);
     $routes->connect('/users/resetpassword', ['controller' => 'users', 'action' => 'resetpassword']);
     $routes->connect('/users/forgotpassword', ['controller' => 'users', 'action' => 'forgotpassword']);
-    $routes->connect('/files/', ['controller' => 'Files', 'action' => 'index']);
+    /**$routes->connect('/files/', ['controller' => 'Files', 'action' => 'index']);
     $routes->connect('/files/upload', ['controller' => 'Files', 'action' => 'upload']);
    $routes->connect('admin/users/view', ['controller' => 'users', 'action' => 'view']);
     $routes->connect('/admin/users/add', ['controller' => 'users', 'action' => 'add']);
