@@ -95,33 +95,4 @@ class AppController extends Controller
         'className' => 'Bootstrap.Panel'
     ]
 ];
-   
-    
-    
-    
- 
-        /*
-         * Enable the following component for recommended CakePHP security settings.
-         * see https://book.cakephp.org/3.0/en/controllers/components/security.html
-         */
-        //$this->loadComponent('Security');
-    
-    public function beforeFilter(Event $event){
-         $this->Auth->allow(['verification', 'register', 'forgotpassword','signup','resetpassword','login']);
-    }
-    
-    public function isAuthorized($user = null)
-            {
-            // Any registered user can access public functions
-            if (!$this->request->getParam('prefix')) {
-            return true;
-            }
-            // Only admins can access admin functions
-            if ($this->request->getParam('prefix') === 'admin') {
-            return (bool)($user['role'] === 'admin');
-            }
-            // Default deny
-            return false;
-            }
-    
 }

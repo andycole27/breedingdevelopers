@@ -10,13 +10,15 @@
         "cakephp/cakephp": "3.7.*",
         "cakephp/migrations": "^2.0.0",
         "cakephp/plugin-installer": "^1.0",
+        "google/recaptcha": "@stable",
         "holt59/cakephp3-bootstrap-helpers": "dev-master",
         "imagine/imagine": "^1.0",
         "josegonzalez/cakephp-upload": "^4.0",
         "josegonzalez/dotenv": "3.*",
         "league/oauth2-facebook": "@stable",
         "league/oauth2-google": "@stable",
-        "mobiledetect/mobiledetectlib": "2.*"
+        "mobiledetect/mobiledetectlib": "2.*",
+        "robthree/twofactorauth": "^1.5.2"
     },
     "require-dev": {
         "cakephp/bake": "^1.1",
