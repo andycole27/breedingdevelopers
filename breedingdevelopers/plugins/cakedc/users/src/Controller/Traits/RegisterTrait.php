@@ -16,7 +16,7 @@ use Cake\Core\Configure;
 use Cake\Datasource\EntityInterface;
 use Cake\Http\Exception\NotFoundException;
 use Cake\Http\Response;
-
+//use Cake\Email\Emailer;
 /**
  * Covers registration features and email token validation
  *

@@ -18,6 +18,7 @@
         "league/oauth2-facebook": "@stable",
         "league/oauth2-google": "@stable",
         "mobiledetect/mobiledetectlib": "2.*",
+        "phpmailer/phpmailer": "^6.0",
         "robthree/twofactorauth": "^1.5.2"
     },
     "require-dev": {

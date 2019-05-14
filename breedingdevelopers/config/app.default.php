@@ -224,7 +224,7 @@ return [
     'Email' => [
         'default' => [
             'transport' => 'default',
-            'from' => 'you@localhost',
+            'from' => 'info@bleedingdevelopers.com',
             //'charset' => 'utf-8',
             //'headerCharset' => 'utf-8',
         ],
